@@ -91,4 +91,75 @@ Example:-
 
   There is a 40% chance that a patient has a viral disease, given that they already have a infected disease.
 
-4. Expected value (mean): 
+4. Expected value (mean): Average of the values.
+5. Variance :  How much the values are different from the average.
+6. Standard Deviation : The average distance from the mean.(Square root of the variance.)
+
+Example :
+# Problem Statement
+In a hospital of 1000 patients:
+300 have viral diseases
+250 have parasitic diseases
+100 have both viral and parasitic diseases
+Find the mean, variance, and standard deviation of patient counts in these three groups.
+
+Solution:- 
+
+Step 1: Calculate Mean
+Mean = (300 + 250 + 100) / 3 
+     = 650 / 3 
+     = 217
+
+Step 2: Calculate Variance
+Calculate differences from mean:
+300 - 217 = 83
+250 - 217 = 33
+100 - 217 = -117
+
+Square these differences:
+83² = 6889, 33² = 1089, (-117)² = 13689
+
+Average the squared differences:
+Variance = (6889 + 1089 + 13689) / 3 = 7222.33
+
+Step 3: Calculate Standard Deviation
+Standard Deviation = squareroot(7222.33) = 85
+
+7. Bernoulli Theorem:- 
+ Only 2 outcomes: Success (1) or Failure (0).
+ Probability of success = p, failure = 1-p
+
+8. Binomial Distribution:-
+  Perform n independent Bernoulli trials (same experiment repeated n times).
+  Counts the total number of successes in those trials.
+
+9. Normal Distribution:-
+   When the mean, median, and mode of data are very close, the data is normally distributed.
+
+   Example:-
+
+   # Problem Statement
+   In a hospital of 1000 patients:
+   300 have viral diseases
+   250 have infected diseases
+   100 have both viral and infected diseases
+   
+   Questions:-
+
+   1. Using Bernoulli theorem, what is the probability that a randomly selected patient has a viral disease?
+   2. If 10 patients are selected randomly, what is the probability exactly 4 have viral disease? (Binomial distribution)
+   3. Over time, the daily number of patients with viral disease tends to follow a normal distribution — explain what this means  in terms of mean, median, and mode.?
+
+   Given:
+Total patients = 1000
+Viral diseases (Set A) = 300
+infected diseases (Set B) = 250
+Both viral & parasitic diseases = 100
+
+1. Bernoulli Theorem
+   Question: What is the probability that a randomly selected patient has a viral disease?
+   Success: Patient has viral disease
+   Failure: Patient does not have viral disease
+   p = 300/1000 = 0.3
+
+   Probability p = 0.3 . (There is a 30% chance that the patient has a viral disease)
