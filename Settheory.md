@@ -39,7 +39,7 @@
       A – B = {COVID-19} 
 
 Example:-
- # Problem Statement
+ #Problem Statement
 
   Problem:
   In a hospital of 1000 patients:
@@ -72,7 +72,7 @@ A depends on B.
 B is already happened.
 
 Example:-
-# Problem Statement:-
+#Problem Statement:-
   In a population of 1000 patients:
   300 have viral diseases (Set A)
   250 have parasitic diseases (Set B)
@@ -96,7 +96,7 @@ Example:-
 6. Standard Deviation : The average distance from the mean.(Square root of the variance.)
 
 Example :
-# Problem Statement
+#Problem Statement
 In a hospital of 1000 patients:
 300 have viral diseases
 250 have parasitic diseases
@@ -138,7 +138,7 @@ Standard Deviation = squareroot(7222.33) = 85
 
    Example:-
 
-   # Problem Statement
+   #Problem Statement
    In a hospital of 1000 patients:
    300 have viral diseases
    250 have infected diseases
