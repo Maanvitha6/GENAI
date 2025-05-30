@@ -47,7 +47,7 @@ Example:-
   250 have a disease in Set B (infected diseases)
   100 have diseases from both sets (A ∩ B)
 
-  Find: Probability that a randomly selected patient has either a viral or parasitic disease.
+  Find: Probability that a randomly selected patient has either a viral or infected disease.
 
   Solution:
   Given:
@@ -75,8 +75,8 @@ Example:-
 #Problem Statement:-
   In a population of 1000 patients:
   300 have viral diseases (Set A)
-  250 have parasitic diseases (Set B)
-  100 have both viral and parasitic diseases (A ∩ B)
+  250 have infected diseases (Set B)
+  100 have both viral and infected diseases (A ∩ B)
 
   What is the probability that a patient has a viral disease, given that they already have a infected disease?
 
@@ -99,8 +99,8 @@ Example :
 #Problem Statement
 In a hospital of 1000 patients:
 300 have viral diseases
-250 have parasitic diseases
-100 have both viral and parasitic diseases
+250 have infected diseases
+100 have both viral and infected diseases
 Find the mean, variance, and standard deviation of patient counts in these three groups.
 
 Solution:- 
@@ -154,7 +154,7 @@ Standard Deviation = squareroot(7222.33) = 85
 Total patients = 1000
 Viral diseases (Set A) = 300
 infected diseases (Set B) = 250
-Both viral & parasitic diseases = 100
+Both viral & infected diseases = 100
 
 1. Bernoulli Theorem
    Question: What is the probability that a randomly selected patient has a viral disease?
