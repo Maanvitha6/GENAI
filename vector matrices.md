@@ -82,5 +82,20 @@ TYPES OF MATRICES:-
     
     
 Vectors:- 
-vector space
+1. vector:
+   vector is a direction.
+   .A vector is a quantity that has both:
+    Magnitude (how much).
+    Direction (where).
+
+    Example: 
+    Imagine you're walking:
+    5 steps forward → that’s a vector (distance + direction).
+    If you just say 5, that’s just a number (called a scalar).
+
+. Equations for vectors are :-
+  
+  <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/vector%201.png">
+  <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/vector%202.png">
+
 
