@@ -3,7 +3,7 @@
 1. set :- collection of well-defined objects.
 
    * (well-defined means there is no confusion about what belongs to the set.)
-
+  
    example:- 
    Set A = {COVID, Dengue, Malaria}
    Set B = {Chickenpox, Dengue, ulcer}
