@@ -68,6 +68,15 @@ TYPES OF MATRICES:-
     Swapping rows and columns. 
 
 12. Symmetric matrix :
+    A matrix that is equal to its transpose.
+
+13. Asymmetric matrix : 
+    A matrix that is not equal to its transpose.
+
+14. Idempotent matrix : 
+    A matrix when multiplied by itself gives the same matrix back.
+    A*A = A
+    
     
     
 
