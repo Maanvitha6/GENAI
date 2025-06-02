@@ -77,6 +77,10 @@ TYPES OF MATRICES:-
     A matrix when multiplied by itself gives the same matrix back.
     A*A = A
     
+    <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/matrices-1.jpeg">
+    <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/matrices-2.jpeg">
     
     
+Vectors:- 
+vector space
 
