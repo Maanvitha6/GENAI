@@ -1,3 +1,5 @@
+June 2 2025 class - 3
+
 1. Equation : 
    mathematical equation that shows two things are equal.
    . x + 2 = 5
@@ -65,6 +67,7 @@ TYPES OF MATRICES:-
 11. transpose matrix :
     Swapping rows and columns. 
 
-12. 
+12. Symmetric matrix :
+    
     
 
