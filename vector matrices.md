@@ -149,8 +149,55 @@ TYPES OF MATRICES:-
    
    <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/distance%20angle%20vectors.jpeg" >
 
+   # TYPES OF ANGLES : 
+   1. Acute angle
+   2. right angle
+   3. obtuse angle
+   4. zero angle
+   5. straight angle
+
+      * Acute (0°–90°)	- Going mostly in same direction  - Two people walking in slightly different paths.
+      * Right (90°) - 	Perpendicular directions -	One going north, one going east.
+      * Obtuse (90°–180°) - 	Going in wide different directions - One forward, one backward-diagonal.
+      * Zero (0°)	- Same exact direction - 	Two cars on same road, same direction.
+      * Straight (180°) - 	Completely opposite directions -	One north, one south.
+
    --> Real-time example based on these vector concepts :
 
 
-# Linear Independence :
- 
+
+
+1.  Linear Independence :
+. No vector in the set can be made by adding or multiplying the other vector in the set.
+  Example :
+  Let’s take vectors:
+  A = (1, 0), B = (0, 1)
+  You can’t make A using B or B using A.
+  So they are linearly independent.
+
+2. Basis :
+. A basis is a set of linearly independent vectors that can be used to make any vector in that space using addition and scalar  multiplication. 
+
+3. Rank :
+   . It’s the number of linearly independent rows or columns in a matrix.
+
+   Example : 
+   --> If we are delivering food, just imagine we should use only 2 routes.
+        1. Route A (go north).
+        2. Route B(go east).
+
+   * We cant make route A with Route B and also we cant make Route B with Route A.
+   so, these are LINEARLY INDEPENDENT.
+
+   * Now imagine you want to reach any location in the city by combining your routes.
+
+     If you use:
+     Route A (north).
+     Route B (east).
+     You can go anywhere in the city by combining these (e.g., north + east, or 3 steps east and 2 steps north).
+     So, Route A and B together form a BASIS.
+
+   * The rank tells us how many directions or unique routes we actually have.
+
+     we have 2 directions: north and east → Rank = 2
+     If you only had 1 direction (say only north), you could only move in a line → Rank = 1.
