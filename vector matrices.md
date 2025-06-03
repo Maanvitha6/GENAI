@@ -23,7 +23,7 @@ June 2 2025 class - 3
     .if we have so many 1000 records and 1 million features,  
     .we just optimise that means we minimise the features to get the records.
 
-MATRICES:-
+# MATRICES:-
  Matrix : 
    Set of numbers arranged in rows and columns.
    . matrix dimensions are rows and columns.
@@ -79,9 +79,34 @@ TYPES OF MATRICES:-
     
     <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/matrices-1.jpeg">
     <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/matrices-2.jpeg">
+
+15. Determinant of a matrix :
+    The determinant is a scalar value that can be calculated from a square matrix (same number of rows and columns).
+    Properties:
+    . Only defined for square matrices (e.g., 2×2, 3×3).
+
+    . If determinant = 0, the matrix is singular (not invertible).
+
+    . If determinant ≠ 0, the matrix is invertible.
+
+    <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/determinant%20matrix.png">
+
+16. Inverse of a matrix :
+    
+    inverse of 2*2 matrix :
+    
+    <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/inverse%20matrix.png">
+
+    inverse of 3*3 matrix :
+
+    <img src = ">
+
+
+16. Scalar :-
+    A scalar is a single number or quantity that represents magnitude only, without direction.
     
     
-Vectors:- 
+# Vectors:- 
 1. vector:
    vector is a direction.
    .A vector is a quantity that has both:
@@ -98,4 +123,34 @@ Vectors:-
   <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/vector%201.png">
   <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/vector%202.png">
 
+2. Vector space :
+   Collection of two vectors 
+   . that can add together.
+   . multiply by numbers (scalars) and still stay inside the space.
 
+   Example:
+   . Movements of a car on a flat road = 2D vector space.
+        -> Every movement = a vector.
+        ->You can add movements and scale them.
+        ->The set of all possible movements forms a vector space.
+      
+3. eigen vector :
+   An eigenvector is a special kind of vector that does not change direction when a matrix (like a transformation) is applied to it.
+
+   <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/eigen%20vector.png">
+
+4. eigen value :
+   A number that tells how much the eigenvector gets stretched.
+
+5. Distance between 2 vectors :
+   The distance between two vectors means how far apart they are.
+
+6. Angle between 2 vectors :
+   
+   <img src = "https://github.com/Maanvitha6/GENAI-CLASS-1/blob/main/Assets/distance%20angle%20vectors.jpeg" >
+
+   --> Real-time example based on these vector concepts :
+
+
+# Linear Independence :
+ 
