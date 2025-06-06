@@ -78,3 +78,27 @@ Example :
     -> Closeness     - 	        Ben can reach everyone quickly in few steps → he is close to all.
     -> EigenvectorCentrality - 	Ella is followed by important people (Dev, Aisha) → she’s influential.
     
+* Graph Database:
+  A graph database is a non-relational database designed to store data in nodes (entities) and edges (relationships) — like a network.
+
+Types of Data:
+
+1. Structured Data:
+    . organized in rows and columns like in tables.	
+    . Relational databases (e.g., SQL).
+
+2. Semi-structured: 
+    . Doesn’t fit strict tables, but has tags or markers.	
+    . JSON, XML, CSV.
+
+3. Unstructured:
+    . No predefined format.	
+    . Text files, emails, images, videos.
+
+Graph Database:(Fraud Detection)
+
+*  It works well with:
+Data Type	- How Graph Databases Handle it.
+Structured	- Can import data from SQL databases into graphs.
+Semi-structured -	Naturally maps to nodes and edges (e.g., JSON → nodes/links).
+Unstructured	 - Can store metadata or tags as graph properties.
