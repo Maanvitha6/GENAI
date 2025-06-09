@@ -216,7 +216,7 @@ Keyword	     -             Use
  . Easy to manage  -	Each function does one task .
  . saves time	   -    Call the function wherever needed.
 
- Built-in Functions :- 
+ 1. Built-in Functions :- 
  . These are already provided by Python.
 
    Function	Use Example :
@@ -225,4 +225,20 @@ Keyword	     -             Use
    type()	   -    Tells data type
    input()	   -    Takes user input
    int(), str()	-   Converts data types
+
+2. User-defined functions :-
+ . Funtcions that we create.
+  <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/function.png">
+   
+3. Function with parameters :-
+ . Take input values (like variables inside the function).
+
+ <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/function%20with%20parameters.png">
+
+4. Functions with return value :- 
+  . Give back an output (result) using return.
+
+  Example :-
+  def square(n):
+    return n * n
 
