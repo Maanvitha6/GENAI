@@ -241,4 +241,35 @@ Keyword	     -             Use
   Example :-
   def square(n):
     return n * n
-    
+
+10. Parameters = input names in function definition.
+    . Parameters are the placeholders or variables listed in a function’s definition.
+
+    Example : - 
+
+    <img src ="https://github.com/Maanvitha6/GENAI/blob/main/Assets/parameter%20example.png">
+
+
+11. Arguments = actual input values in function call.
+    . Arguments are the actual values you pass to a function when you call it.
+
+    Example :-
+
+    <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/arguments%20example.png">
+
+* Key difference between parameters and arguments :-
+    * Aspect	             Parameters	                                  Arguments
+    * What are they?	     Variables in function definition	     Actual values passed to function
+    * When used?	         When defining a function	             When calling or invoking function
+    * Role	                 Act as placeholders	                 Provide the data for placeholders
+
+
+* Term	    -  What it means	                 -      Example
+* Defining	-   Writing the function’s code	 -    def say_hello(): ...
+* Calling	 -  Running or using the function - 	say_hello()
+
+ * DATA STRUCTURES :- 
+  .  collections of data types, including lists, string, tuples, sets, dictionaries and arrays.
+ * A data structure is a way to store, organize, and manage data. 
+
+ 
