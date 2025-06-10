@@ -24,15 +24,16 @@
    Operators are symbols that tell Python to perform some action like adding, comparing, or checking conditions. 
 
    * Arithmetic Operators :- (Used for Math Operations)
-     | Operator | Meaning             | Example   | Result | What it Does                                          |
-| -------- | ------------------- | --------- | ------ | ----------------------------------------------------- |
-| `+`      | Addition            | `5 + 3`   | `8`    | Adds two numbers                                      |
-| `-`      | Subtraction         | `5 - 2`   | `3`    | Subtracts second number from the first                |
-| `*`      | Multiplication      | `4 * 3`   | `12`   | Multiplies the numbers                                |
-| `/`      | Division            | `10 / 2`  | `5.0`  | Divides the first number by the second (float result) |
-| `//`     | Floor Division      | `10 // 3` | `3`    | Gives only the whole number (no decimals)             |
-| `%`      | Modulus (Remainder) | `10 % 3`  | `1`    | Returns the remainder after division                  |
-| `**`     | Exponent (Power)    | `2 ** 3`  | `8`    | Means 2 raised to the power 3 (2 × 2 × 2)             |
+     
+    | Operator | Meaning             | Example   | Result | What it Does                                          |
+    | -------- | ------------------- | --------- | ------ | ----------------------------------------------------- |
+    | `+`      | Addition            | `5 + 3`   | `8`    | Adds two numbers                                      |
+    | `-`      | Subtraction         | `5 - 2`   | `3`    | Subtracts second number from the first                |
+    | `*`      | Multiplication      | `4 * 3`   | `12`   | Multiplies the numbers                                |
+    | `/`      | Division            | `10 / 2`  | `5.0`  | Divides the first number by the second (float result) |
+    | `//`     | Floor Division      | `10 // 3` | `3`    | Gives only the whole number (no decimals)             |
+    | `%`      | Modulus (Remainder) | `10 % 3`  | `1`    | Returns the remainder after division                  |
+    | `**`     | Exponent (Power)    | `2 ** 3`  | `8`    | Means 2 raised to the power 3 (2 × 2 × 2)             |
 
 
    * Comparison Operators :- (Used to Compare Two Values).
