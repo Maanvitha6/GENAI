@@ -336,26 +336,26 @@ while count <= 5:
 
  <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/types%20of%20data%20structures.png">
 
- 1. List :- ordered and mutable. 
-    -> items are in order. 
-    -> you can change, add, or remove items.
-    -> you can use loops to go through each item .
-    * Example :- 
-      top_dishes = ["biryani", "paneer", "gulab jamun"]
+1. List :- ordered and mutable. 
+-> items are in order. 
+-> you can change, add, or remove items.
+-> you can use loops to go through each item .
+* Example :- 
+top_dishes = ["biryani", "paneer", "gulab jamun"]
 
 2. Tuple :- Ordered and immutable.
-   -> ordered like lists.
-   -> cannot change after creation.
+-> ordered like lists.
+-> cannot change after creation.
 
 3. Set :- Unordered and no duplicates.
-   -> used when you want only unique values.
-   -> duplicates are automatically removed. 
+-> used when you want only unique values.
+-> duplicates are automatically removed. 
 
 4. Dictionary :- (Key-Value pairs).
-   -> used when each value has a name/label.
-    Example :-
-    student = {"name": "Maanvitha", "age": 22, "course": "Python"}
-    . Access data using keys like student["name"]
+-> used when each value has a name/label.
+Example :-
+student = {"name": "Maanvitha", "age": 22, "course": "Python"}
+. Access data using keys like student["name"]
 
 # Real-time example for all these concepts:-
 
