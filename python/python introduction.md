@@ -24,38 +24,49 @@
    Operators are symbols that tell Python to perform some action like adding, comparing, or checking conditions. 
 
    * Arithmetic Operators :- (Used for Math Operations)
-     
-    ->  +	Addition	         5 + 3	  -   8	  -  Adds two numbers.
-    ->  -	Subtraction	         5 - 2	  -   3	  -  Subtracts second number from the first.
-    ->  *	Multiplication	     4 * 3	  -   12  -  Multiplies the numbers.
-    ->  /	Division	         10 / 2	  -   5.0 -	 Divides the first number by the second (float result).
-    ->  //	Floor Division	     10 // 3  -   3	  -  Gives only the whole number (no decimals).
-    ->  %	Modulus (Remainder)	 10 % 3	  -   1	  -  Returns the remainder after division.
-    ->  **	Exponent (Power)	 2 ** 3	  -   8	  -  Means 2 raised to the power 3 (2 × 2 × 2).
+     | Operator | Meaning             | Example   | Result | What it Does                                          |
+| -------- | ------------------- | --------- | ------ | ----------------------------------------------------- |
+| `+`      | Addition            | `5 + 3`   | `8`    | Adds two numbers                                      |
+| `-`      | Subtraction         | `5 - 2`   | `3`    | Subtracts second number from the first                |
+| `*`      | Multiplication      | `4 * 3`   | `12`   | Multiplies the numbers                                |
+| `/`      | Division            | `10 / 2`  | `5.0`  | Divides the first number by the second (float result) |
+| `//`     | Floor Division      | `10 // 3` | `3`    | Gives only the whole number (no decimals)             |
+| `%`      | Modulus (Remainder) | `10 % 3`  | `1`    | Returns the remainder after division                  |
+| `**`     | Exponent (Power)    | `2 ** 3`  | `8`    | Means 2 raised to the power 3 (2 × 2 × 2)             |
+
 
    * Comparison Operators :- (Used to Compare Two Values).
 
-    ->  ==	   Equal to	5 == 5	      -  True	- Are both values equal?
-    ->  !=	   Not equal to	5 != 3	  -  True	- Are values different?
-    ->  >	   Greater than	5 > 3	  -  True	- Is the first value larger?
-    ->  <	   Less than	5 < 2	  -  False	- Is the first value smaller?
-    ->  >=	   Greater or equal	5 >= 5 - True	- Is it greater or the same?
-    ->  <=	   Less or equal	5 <= 4	- False	- Is it smaller or the same?
+   | Operator | Meaning          | Example  | Result  | What it Checks              |
+| -------- | ---------------- | -------- | ------- | --------------------------- |
+| `==`     | Equal to         | `5 == 5` | `True`  | Are both values equal?      |
+| `!=`     | Not equal to     | `5 != 3` | `True`  | Are values different?       |
+| `>`      | Greater than     | `5 > 3`  | `True`  | Is the first value larger?  |
+| `<`      | Less than        | `5 < 2`  | `False` | Is the first value smaller? |
+| `>=`     | Greater or equal | `5 >= 5` | `True`  | Is it greater or the same?  |
+| `<=`     | Less or equal    | `5 <= 4` | `False` | Is it smaller or the same?  |
+
 
     *  Logical Operators :- (Used in Conditions).
 
-     ->  and -	True if both are true	      -     True and False - 	False -	  Both sides must be true to return True
-     ->  or	 -  True if at least one is true  - 	True or False  -    True  -	  If any one is true, the result is True
-     ->  not -	Reverses the value	          -      not True      - 	False -   Flips the result: not True becomes False
+     | Operator | Meaning                      | Example          | Result  | What it Means                                |
+| -------- | ---------------------------- | ---------------- | ------- | -------------------------------------------- |
+| `and`    | True if both are true        | `True and False` | `False` | Both sides must be true to return `True`     |
+| `or`     | True if at least one is true | `True or False`  | `True`  | If **any** one is true, the result is `True` |
+| `not`    | Reverses the value           | `not True`       | `False` | Flips the result: `not True` becomes `False` |
+
 
      * Assignment Operators:- (Used to Assign and Update Values)
 
-      ->  =	    x = 5	—	        - Assigns value 5 to the variable x
-      ->  +=	x += 2	x = x + 2	- Adds 2 to current value of x
-      ->  -=	x -= 2	x = x - 2	- Subtracts 2 from x
-      ->  *=	x *= 3	x = x * 3	- Multiplies x by 3
-      ->  /=	x /= 2	x = x / 2	- Divides x by 2
-      ->  %=	x %= 2	x = x % 2	- Stores remainder of x divided by 2
+      | Operator | Example  | Same As     | What it Does                         |
+| -------- | -------- | ----------- | ------------------------------------ |
+| `=`      | `x = 5`  | —           | Assigns value 5 to the variable `x`  |
+| `+=`     | `x += 2` | `x = x + 2` | Adds 2 to current value of `x`       |
+| `-=`     | `x -= 2` | `x = x - 2` | Subtracts 2 from `x`                 |
+| `*=`     | `x *= 3` | `x = x * 3` | Multiplies `x` by 3                  |
+| `/=`     | `x /= 2` | `x = x / 2` | Divides `x` by 2                     |
+| `%=`     | `x %= 2` | `x = x % 2` | Stores remainder of `x` divided by 2 |
+
 
       * Conditional operators :- same as comparision operators.
 
@@ -72,18 +83,40 @@
 
     . import means bringing a toolbox (package or module) into your Python program so you can use its tools (functions, methods, etc.). 
     . Python has many built-in and external packages, but to use them, you must import them first.
+
+    * common and useful python packages:- 
+
+    | Package Name | Used For                      | Significance / Example Use            |
+| ------------ | ----------------------------- | ------------------------------------- |
+| `math`       | Basic math functions          | `math.sqrt(16)` → 4.0                 |
+| `random`     | Random number generation      | Simulate dice, pick random item       |
+| `datetime`   | Date and time operations      | Add days, get current time            |
+| `os`         | Interact with system files    | List files, create folders            |
+| `sys`        | Python interpreter operations | Handle system arguments or exit codes |
+| `re`         | Regular expressions           | Pattern matching in strings           |
+
      
      *  Data Science & Analysis Packages:- 
-    ->  numpy	  -   Math with arrays	Fast math operations, used in AI and ML.
-    ->  pandas	  -   Data analysis & tables	Load and clean Excel/CSV files.
-    ->  matplotlib-	  Plotting charts	Bar chart, line chart, etc.
-    ->  seaborn	  -   Advanced statistical plots	Heatmaps, regression plots.
+
+     | Package       | Used For                   | Example Use                             |
+| ------------- | -------------------------- | --------------------------------------- |
+| `numpy`       | Math with arrays           | Fast math operations, used in AI and ML |
+| `pandas`      | Data analysis & tables     | Load and clean Excel/CSV files          |
+| `matplotlib`  | Plotting charts            | Bar chart, line chart, etc.             |
+| `seaborn`     | Advanced statistical plots | Heatmaps, regression plots              |
+| `scipy`       | Scientific computing       | Signal processing, optimization         |
+| `statsmodels` | Statistical analysis       | Regression, hypothesis testing          |
+
     
     * AI & Machine Learning Packages :-
-    -> scikit-learn	-   Machine learning models	-   Build a prediction model like spam filter
-    -> tensorflow	-   Deep learning (Google)	-   Neural networks, image recognition
-    -> keras	    -   Simplified deep learning-	Easier coding for deep learning models
-    -> xgboost	    -   Boosted trees (ML)	High-   performance prediction models.
+
+    | Package        | Used For                 | Example Use                               |
+| -------------- | ------------------------ | ----------------------------------------- |
+| `scikit-learn` | Machine learning models  | Build a prediction model like spam filter |
+| `tensorflow`   | Deep learning (Google)   | Neural networks, image recognition        |
+| `keras`        | Simplified deep learning | Easier coding for deep learning models    |
+| `xgboost`      | Boosted trees (ML)       | High-performance prediction models        |
+
 
 6. Flowchart :-
    . A flowchart is a diagram that shows the steps of a process using different shapes and arrows.
@@ -96,14 +129,15 @@
 
    * Common flowchart symbols and their significance :-
     
-    Symbol	   - Name	    - Meaning / When to Use	      -     Example
+    | Shape | Symbol | Name             | Meaning / When to Use                          | Example                           |
+| ----- | ------ | ---------------- | ---------------------------------------------- | --------------------------------- |
+| 🔶    | ▭      | **Terminator**   | Start or End of the process                    | `Start`, `End`                    |
+| 🔷    | ◼      | **Process**      | Action step or instruction                     | `Enter password`, `Calculate sum` |
+| 🔷    | ◯      | **Input/Output** | Data entry or output step                      | `Enter number`, `Print result`    |
+| 🔷    | 🔷     | **Decision**     | A Yes/No or True/False question or condition   | `Is age > 18?` → Yes or No        |
+| 🔽    | →      | **Arrow**        | Shows the direction of flow                    | From one step to another          |
+| 🔁    | 🔁     | **Connector**    | Jump from one part to another (for big charts) | To continue on next page          |
 
-    ▭	      - Terminator	 -  Start or End of the process	 -  Start, End
-    ◼	     - Process	      - Action step or instruction	  - Enter password, Calculate sum
-    ◯	     - Input/Output	  - Data entry or output step     -	Enter number, Print result
-    🔷	      - Decision	   - A Yes/No or True/False question or condition  - 	Is age > 18? → Yes or No
-    →	       - Arrow	        - Shows the direction of flow	                -  From one step to another
-    🔁	      - Connector	    - Jump from one part to another (for big charts) - 	To continue on next page
 
     * How flowchart helps in programming? 
 
@@ -115,19 +149,22 @@
    . It helps the program decide what to do next.
 
    Simple example :- 
-   . if age >= 18:
-    print("You can vote").
+
+   if age >= 18:
+    print("You can vote")
+
     Here, age >= 18 is a condition.
-    If it's True → it prints "You can vote".
-    If it's False → it skips that step.
+    .If it's True → it prints "You can vote".
+    .If it's False → it skips that step.
 
 * Types of conditions :- 
 
 1. simple condition :-
    * checks one condition.
    example :- 
-    if number > 0:
-    print("Positive number") 
+   if number > 0:
+    print("Positive number")
+ 
 
 2. if-else condition :- 
    * Gives a choice. Do this or that. 
@@ -136,6 +173,7 @@
     print("Even")
 else:
     print("Odd")
+
 
 3.  If-Elif-Else (Multiple Conditions) :- 
     * checks many possibilities.
@@ -147,12 +185,14 @@ elif marks >= 80:
 else:
     print("Needs Improvement")
 
+
 4. Nested conditions :-
    * one condition inside another.
    example :-
    if age >= 18:
     if has_id:
         print("You can vote")
+
 
 8. Loops :-
   
@@ -177,6 +217,7 @@ Types of loops :-
   for i in range(5):
     print(i)
 
+
     . Prints: 0, 1, 2, 3, 4
 
 2. while loop :-
@@ -187,6 +228,7 @@ Types of loops :-
 while count <= 5:
     print(count)
     count += 1
+
     . repeats until count becomes 6 . 
 
 3. Nested loop :-
@@ -197,12 +239,17 @@ while count <= 5:
     for j in range(2):
         print(i, j)
 
- * If we write the loop without condition, it goes infinite, that means it is infinite loop. 
+
+ * If we write the loop without condition, it goes infinite, that means it is infinite loop.
+
 * Keywords Used in Loops :-
-Keyword	     -             Use
-. break	     -       Stop the loop completely
-. continue	 -       Skip current step, go to next one
-. range()	     -       Gives a list of numbers for for loop
+
+| Keyword    | Use                                    |
+| ---------- | -------------------------------------- |
+| `break`    | Stop the loop completely               |
+| `continue` | Skip current step, go to next one      |
+| `range()`  | Gives a list of numbers for `for` loop |
+
 
 
 9. Function :-
@@ -220,11 +267,15 @@ Keyword	     -             Use
  . These are already provided by Python.
 
    Function	Use Example :
-   print()	   -    Prints output
-   len()	   -    Finds length of string/list
-   type()	   -    Tells data type
-   input()	   -    Takes user input
-   int(), str()	-   Converts data types
+
+   | Function         | Use Example                 |
+| ---------------- | --------------------------- |
+| `print()`        | Prints output               |
+| `len()`          | Finds length of string/list |
+| `type()`         | Tells data type             |
+| `input()`        | Takes user input            |
+| `int()`, `str()` | Converts data types         |
+
 
 2. User-defined functions :-
  . Funtcions that we create.
@@ -242,6 +293,7 @@ Keyword	     -             Use
   def square(n):
     return n * n
 
+
 10. Parameters = input names in function definition.
     . Parameters are the placeholders or variables listed in a function’s definition.
 
@@ -258,15 +310,19 @@ Keyword	     -             Use
     <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/arguments%20example.png">
 
 * Key difference between parameters and arguments :-
-    * Aspect	             Parameters	                                  Arguments
-    * What are they?	     Variables in function definition	     Actual values passed to function
-    * When used?	         When defining a function	             When calling or invoking function
-    * Role	                 Act as placeholders	                 Provide the data for placeholders
+
+| Aspect         | Parameters                       | Arguments                         |
+| -------------- | -------------------------------- | --------------------------------- |
+| What are they? | Variables in function definition | Actual values passed to function  |
+| When used?     | When defining a function         | When calling or invoking function |
+| Role           | Act as placeholders              | Provide the data for placeholders |
 
 
-* Term	    -  What it means	                 -      Example
-* Defining	-   Writing the function’s code	 -    def say_hello(): ...
-* Calling	 -  Running or using the function - 	say_hello()
+| Term         | What it means                 | Example                |
+| ------------ | ----------------------------- | ---------------------- |
+| **Defining** | Writing the function’s code   | `def say_hello(): ...` |
+| **Calling**  | Running or using the function | `say_hello()`          |
+
 
  * DATA STRUCTURES :- 
   .  collections of data types, including lists, string, tuples, sets, dictionaries and arrays.
@@ -300,7 +356,5 @@ Keyword	     -             Use
     student = {"name": "Maanvitha", "age": 22, "course": "Python"}
     . Access data using keys like student["name"]
 
-# Real-time example for all these concepts:- 
+# Real-time example for all these concepts:-
 
-
-      
