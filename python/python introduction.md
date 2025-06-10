@@ -20,12 +20,14 @@
     * python is like talking to the computer in a simple way. It helps you build powerful things without getting stuck in        complicated code.
 
 3. Instructions:- 
-   command you give to the computer to do something. 
+    
+    command you give to the computer to do something. 
 
 4. Operators :- 
-   Operators are symbols that tell Python to perform some action like adding, comparing, or checking conditions. 
+    
+    Operators are symbols that tell Python to perform some action like adding, comparing, or checking conditions. 
 
-   * Arithmetic Operators :- (Used for Math Operations)
+    1. Arithmetic Operators :- (Used for Math Operations)
      
     | Operator | Meaning             | Example   | Result | What it Does                                          |
     | -------- | ------------------- | --------- | ------ | ----------------------------------------------------- |
@@ -38,7 +40,7 @@
     | `**`     | Exponent (Power)    | `2 ** 3`  | `8`    | Means 2 raised to the power 3 (2 × 2 × 2)             |
 
 
-   * Comparison Operators :- (Used to Compare Two Values).
+    2. Comparison Operators :- (Used to Compare Two Values).
 
     | Operator | Meaning          | Example  | Result  | What it Checks              |
     | -------- | ---------------- | -------- | ------- | --------------------------- |
@@ -50,7 +52,7 @@
     | `<=`     | Less or equal    | `5 <= 4` | `False` | Is it smaller or the same?  |
 
 
-    *  Logical Operators :- (Used in Conditions).
+    3. Logical Operators :- (Used in Conditions).
 
     | Operator | Meaning                      | Example          | Result  | What it Means                                |
     | -------- | ---------------------------- | ---------------- | ------- | -------------------------------------------- |
@@ -59,7 +61,7 @@
     | `not`    | Reverses the value           | `not True`       | `False` | Flips the result: `not True` becomes `False` |
 
 
-     * Assignment Operators:- (Used to Assign and Update Values)
+    4. Assignment Operators:- (Used to Assign and Update Values)
 
     | Operator | Example  | Same As     | What it Does                         |
     | -------- | -------- | ----------- | ------------------------------------ |
@@ -71,7 +73,7 @@
     | `%=`     | `x %= 2` | `x = x % 2` | Stores remainder of `x` divided by 2 |
 
 
-      * Conditional operators :- same as comparision operators.
+    5. Conditional operators :- same as comparision operators.
 
 5. Packages:- 
    .  package is a collection of useful tools (functions, classes, or modules) that help you do specific tasks easily without   writing everything from scratch.
