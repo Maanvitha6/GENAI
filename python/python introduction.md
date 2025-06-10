@@ -298,7 +298,7 @@ Keyword	     -             Use
     -> used when each value has a name/label.
     Example :-
     student = {"name": "Maanvitha", "age": 22, "course": "Python"}
-    Access data using keys like student["name"]
-    
+    . Access data using keys like student["name"]
+
     
       
