@@ -38,14 +38,14 @@
 
    * Comparison Operators :- (Used to Compare Two Values).
 
-   | Operator | Meaning          | Example  | Result  | What it Checks              |
-| -------- | ---------------- | -------- | ------- | --------------------------- |
-| `==`     | Equal to         | `5 == 5` | `True`  | Are both values equal?      |
-| `!=`     | Not equal to     | `5 != 3` | `True`  | Are values different?       |
-| `>`      | Greater than     | `5 > 3`  | `True`  | Is the first value larger?  |
-| `<`      | Less than        | `5 < 2`  | `False` | Is the first value smaller? |
-| `>=`     | Greater or equal | `5 >= 5` | `True`  | Is it greater or the same?  |
-| `<=`     | Less or equal    | `5 <= 4` | `False` | Is it smaller or the same?  |
+    | Operator | Meaning          | Example  | Result  | What it Checks              |
+    | -------- | ---------------- | -------- | ------- | --------------------------- |
+    | `==`     | Equal to         | `5 == 5` | `True`  | Are both values equal?      |
+    | `!=`     | Not equal to     | `5 != 3` | `True`  | Are values different?       |
+    | `>`      | Greater than     | `5 > 3`  | `True`  | Is the first value larger?  |
+    | `<`      | Less than        | `5 < 2`  | `False` | Is the first value smaller? |
+    | `>=`     | Greater or equal | `5 >= 5` | `True`  | Is it greater or the same?  |
+    | `<=`     | Less or equal    | `5 <= 4` | `False` | Is it smaller or the same?  |
 
 
     *  Logical Operators :- (Used in Conditions).
