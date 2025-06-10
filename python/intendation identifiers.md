@@ -311,7 +311,7 @@
                   Delete set: del set
 
                   Example :- my_set.clear()
-                  
+
                   del my_set
 
 
