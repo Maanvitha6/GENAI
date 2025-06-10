@@ -270,6 +270,35 @@ Keyword	     -             Use
 
  * DATA STRUCTURES :- 
   .  collections of data types, including lists, string, tuples, sets, dictionaries and arrays.
- * A data structure is a way to store, organize, and manage data. 
+  .  A data structure is a way to store, organize, and manage data. 
 
- 
+ * Why are data structures useful :-
+
+ . They help organize data in programs.
+ . Make it easy to search, add, delete, or update data.
+
+ <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/types%20of%20data%20structures.png">
+
+ 1. List :- ordered and mutable. 
+    -> items are in order. 
+    -> you can change, add, or remove items.
+    -> you can use loops to go through each item .
+    * Example :- 
+      top_dishes = ["biryani", "paneer", "gulab jamun"]
+
+2. Tuple :- Ordered and immutable.
+    -> ordered like lists.
+    -> cannot change after creation.
+
+3. Set :- Unordered and no duplicates.
+     -> used when you want only unique values.
+     -> duplicates are automatically removed. 
+
+4. Dictionary :- (Key-Value pairs).
+    -> used when each value has a name/label.
+    Example :-
+    student = {"name": "Maanvitha", "age": 22, "course": "Python"}
+    Access data using keys like student["name"]
+    
+    
+      
