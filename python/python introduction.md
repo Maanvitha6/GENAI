@@ -76,17 +76,20 @@
     5. Conditional operators :- same as comparision operators.
 
 5. Packages:- 
-   .  package is a collection of useful tools (functions, classes, or modules) that help you do specific tasks easily without   writing everything from scratch.
+
+   . package is a collection of useful tools (functions, classes, or modules) that help you do specific tasks easily without   writing everything from scratch.
+
    . (or)  A package is like a toolbox in Python. Each toolbox has tools (code) made for solving certain problems like math, data, graphs, or AI.
 
-   * Why packages are important ?
+       Why packages are important ?
 
-   . Saves Time - You dont have to write long code.
-   . Easy to Use - Just install and use the function.
+       . Saves Time - You dont have to write long code.
+       . Easy to Use - Just install and use the function.
    
    * what is meant by import package?
 
     . import means bringing a toolbox (package or module) into your Python program so you can use its tools (functions, methods, etc.). 
+
     . Python has many built-in and external packages, but to use them, you must import them first.
 
     * common and useful python packages:- 
@@ -124,12 +127,17 @@
 
 
 6. Flowchart :-
+
    . A flowchart is a diagram that shows the steps of a process using different shapes and arrows.
+
    . It helps you plan, analyze, and communicate how a task or program works — step by step.
 
    * why use flowcharts ? 
+
     .  Easy to understand  - 	Shows logic visually – no confusion
+
     .  Saves time	      -      Helps plan before writing code
+
     .  Debugging help	    -    Easy to find errors in the logic
 
    * Common flowchart symbols and their significance :-
@@ -147,42 +155,60 @@
     * How flowchart helps in programming? 
 
     . Before writing code, draw a flowchart to plan the logic.
+
     . Helps beginners understand how decisions, inputs, and loops work.
 
 7. Condition :-
    . A condition is a statement that checks whether something is True or False.
+
    . It helps the program decide what to do next.
 
    Simple example :- 
 
    if age >= 18:
+
     print("You can vote")
 
     Here, age >= 18 is a condition.
+
     .If it's True → it prints "You can vote".
+
     .If it's False → it skips that step.
 
 * Types of conditions :- 
 
 1. simple condition :-
+
    * checks one condition.
+
    example :- 
+
    if number > 0:
+
     print("Positive number")
  
 
 2. if-else condition :- 
+
    * Gives a choice. Do this or that. 
+
    example :- 
+
     if number % 2 == 0:
+
     print("Even")
+
 else:
+
     print("Odd")
 
 
-3.  If-Elif-Else (Multiple Conditions) :- 
+3.  If-Elif-Else (Multiple Conditions) :-
+
     * checks many possibilities.
+
     Example :-
+
     if marks >= 90:
     print("Grade A")
 elif marks >= 80:
@@ -192,7 +218,9 @@ else:
 
 
 4. Nested conditions :-
+
    * one condition inside another.
+
    example :-
    if age >= 18:
     if has_id:
@@ -202,20 +230,26 @@ else:
 8. Loops :-
   
 * A loop is a way to repeat a block of code again and again until a certain condition is met.
+
  . It’s like telling the computer: Do this task multiple times without writing the same code again. 
 
 * why loops are used ?
+
 . Repeat Tasks - 	Do the same thing multiple times (e.g., print numbers).
+
 . Save Time    - 	Avoid writing the same line of code many times.
  
 Example :-
+
  Example	      -                 Loop Use
-Counting 1 to 10  -	                Loop prints each number
-Checking all messages in inbox	-    Loop checks each email
+
+ Counting 1 to 10  -	                Loop prints each number
+ Checking all messages in inbox	-    Loop checks each email
 
 Types of loops :-
 
 1. for loop : 
+
   . Used when you know how many times to repeat.
 
   example :-
@@ -226,6 +260,7 @@ Types of loops :-
     . Prints: 0, 1, 2, 3, 4
 
 2. while loop :-
+
    . Used when you dont know how many times to repeat - keep going while a condition is true.
 
    example :- 
@@ -237,6 +272,7 @@ while count <= 5:
     . repeats until count becomes 6 . 
 
 3. Nested loop :-
+
    A loop inside another loop.
 
    example :-
@@ -258,17 +294,23 @@ while count <= 5:
 
 
 9. Function :-
+
    . A function is a block of code that does a specific task. 
+
    . You give it a name, and you can reuse it anytime by calling it.
 
    * Think of it like a machine:
+
      . You give input, it does some work, and gives output.
 
  * Why are functions helpful? 
+
  . Easy to manage  -	Each function does one task .
+
  . saves time	   -    Call the function wherever needed.
 
  1. Built-in Functions :- 
+
  . These are already provided by Python.
 
    Function	Use Example :
@@ -283,15 +325,18 @@ while count <= 5:
 
 
 2. User-defined functions :-
+
  . Funtcions that we create.
   <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/function.png">
    
 3. Function with parameters :-
+
  . Take input values (like variables inside the function).
 
  <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/function%20with%20parameters.png">
 
 4. Functions with return value :- 
+
   . Give back an output (result) using return.
 
   Example :-
@@ -300,6 +345,7 @@ while count <= 5:
 
 
 10. Parameters = input names in function definition.
+
     . Parameters are the placeholders or variables listed in a function’s definition.
 
     Example : - 
@@ -308,6 +354,7 @@ while count <= 5:
 
 
 11. Arguments = actual input values in function call.
+
     . Arguments are the actual values you pass to a function when you call it.
 
     Example :-
@@ -330,36 +377,52 @@ while count <= 5:
 
 
  * DATA STRUCTURES :- 
+
   .  collections of data types, including lists, string, tuples, sets, dictionaries and arrays.
+
   .  A data structure is a way to store, organize, and manage data. 
 
- * Why are data structures useful :-
+      * Why are data structures useful :-
 
- . They help organize data in programs.
- . Make it easy to search, add, delete, or update data.
+           . They help organize data in programs.
+
+           . Make it easy to search, add, delete, or update data.
 
  <img src = "https://github.com/Maanvitha6/GENAI/blob/main/Assets/types%20of%20data%20structures.png">
 
-1. List :- ordered and mutable. 
--> items are in order. 
--> you can change, add, or remove items.
--> you can use loops to go through each item .
+1. List :- ordered and mutable.
+
+         -> items are in order. 
+
+         -> you can change, add, or remove items.
+
+         -> you can use loops to go through each item .
+
 * Example :- 
+
 top_dishes = ["biryani", "paneer", "gulab jamun"]
 
 2. Tuple :- Ordered and immutable.
--> ordered like lists.
--> cannot change after creation.
+
+      -> ordered like lists.
+
+      -> cannot change after creation.
 
 3. Set :- Unordered and no duplicates.
--> used when you want only unique values.
--> duplicates are automatically removed. 
+
+      -> used when you want only unique values.
+
+      -> duplicates are automatically removed. 
 
 4. Dictionary :- (Key-Value pairs).
--> used when each value has a name/label.
-Example :-
-student = {"name": "Maanvitha", "age": 22, "course": "Python"}
-. Access data using keys like student["name"]
+      
+      -> used when each value has a name/label.
+
+      Example :-
+
+      student = {"name": "Maanvitha", "age": 22, "course": "Python"}
+      
+      . Access data using keys like student["name"]
 
 # Real-time example for all these concepts:-
 
