@@ -1,16 +1,17 @@
-                        june 09 2025
+# june 09 2025
 
 1. Programming :- 
-   The process of giving instructions to a computer to make it do specific tasks.
-   . Each instruction tells the computer to do one small task.
+    
+    The process of giving instructions to a computer to make it do specific tasks.
+    Each instruction tells the computer to do one small task.
 
-* why do we need programming in real-life :
+    why do we need programming in real-life :
 
-  . To make computers do work for us.
-  → Like sending emails, calculating bills, or booking tickets automatically.
+        To make computers do work for us.
+        Like sending emails, calculating bills, or booking tickets automatically.
 
-  . To create apps and websites.
-  → Like Instagram, Google, Zomato — all are built using programming.
+        To create apps and websites.
+        Like Instagram, Google, Zomato -> all are built using programming.
 
 2. why only python programming compared to other languages? 
   * python is super-friendly. 
