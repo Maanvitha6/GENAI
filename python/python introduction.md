@@ -344,15 +344,15 @@ while count <= 5:
       top_dishes = ["biryani", "paneer", "gulab jamun"]
 
 2. Tuple :- Ordered and immutable.
-    -> ordered like lists.
-    -> cannot change after creation.
+   -> ordered like lists.
+   -> cannot change after creation.
 
 3. Set :- Unordered and no duplicates.
-     -> used when you want only unique values.
-     -> duplicates are automatically removed. 
+   -> used when you want only unique values.
+   -> duplicates are automatically removed. 
 
 4. Dictionary :- (Key-Value pairs).
-    -> used when each value has a name/label.
+   -> used when each value has a name/label.
     Example :-
     student = {"name": "Maanvitha", "age": 22, "course": "Python"}
     . Access data using keys like student["name"]
