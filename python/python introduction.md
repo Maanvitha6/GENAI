@@ -300,5 +300,7 @@ Keyword	     -             Use
     student = {"name": "Maanvitha", "age": 22, "course": "Python"}
     . Access data using keys like student["name"]
 
-    
+# Real-time example for all these concepts:- 
+
+
       
