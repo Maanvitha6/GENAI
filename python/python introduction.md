@@ -14,9 +14,10 @@
         Like Instagram, Google, Zomato -> all are built using programming.
 
 2. why only python programming compared to other languages? 
-  * python is super-friendly. 
-  * python is very easy to read and write.
-  * python is like talking to the computer in a simple way. It helps you build powerful things without getting stuck in complicated code.
+    
+    * python is super-friendly. 
+    * python is very easy to read and write.
+    * python is like talking to the computer in a simple way. It helps you build powerful things without getting stuck in        complicated code.
 
 3. Instructions:- 
    command you give to the computer to do something. 
