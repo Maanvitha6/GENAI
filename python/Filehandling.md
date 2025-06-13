@@ -16,31 +16,23 @@
 
       r+	-       Read and write mode	            -     Opens the file for both reading and writing. File must exist.
 
-      rb+	-       Read and write in binary mode	-     Opens the file for both reading and writing binary data. File must 
-      
-                                                          exist.
+      rb+	-       Read and write in binary mode	-     Opens the file for both reading and writing binary data.File must exist
 
-      w	    -       Write mode	                     -    Opens the file for writing. Creates a new file or truncates the existing
-
-                                                          one.
+      w	    -       Write mode	                     -    Opens the file for writing.Creates new file or truncates the existingone
 
       wb	-       Write in binary mode	          -   Opens the file for writing binary data. Creates or truncates file.
 
       w+	-       Write and read mode	             -    Opens the file for writing and reading. Creates or truncates file.
 
-      wb+	-       Write and read in binary mode	-     Opens the file for writing and reading binary data. Creates or truncates
-      
-                                                         file.
+      wb+	-       Write and read in binary mode	-     Opens file for writing and reading binary data.Creates or truncates file
 
       a	    -       Append mode	                     -    Opens the file for appending. Creates new file if it doesn’t exist.
 
       ab	-       Append in binary mode	         -    Opens the file for appending binary data. Creates new file if it doesn’t
       
-                                                         exist.
+                                                          exist.
 
-      a+	-       Append and read mode	          -   Opens the file for appending and reading. Creates new file if it 
-      
-                                                          doesn’t exist.
+      a+	-       Append and read mode	          -   Opens file for appending and reading.Creates new file if itdoesn’texist.
 
       ab+	-       Append and read in binary mode	  -   Opens the file for appending and reading binary data. Creates new file
        
